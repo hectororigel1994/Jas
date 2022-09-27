@@ -319,10 +319,14 @@ ul.site_menu li a {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner1.jpg);
-     background-size: 100% 100%;
+     background: url(../images/banner.jpg);
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
+     width: 100%;
+     height: auto;
+
+     
 }
 
 .banner_main {
@@ -331,8 +335,8 @@ ul.site_menu li a {
 }
 
 .banner_main strong {
-     color: #fff;
-     background-color: #000;
+     color: rgb(0, 0, 0);
+     background-color: #ffc107;
      width: 52px;
      height: 52px;
      border-radius: 40px;
